@@ -9,6 +9,8 @@ import Features from '../Features/Features';
 import Advantages from '../../Advantages/Advantages';
 import FullyCustomize from '../../Customize/FullyCustomize';
 import FAQ from '../../FAQ/FAQ';
+import Testimonial from '../../Testimonials/Testimonial';
+import CardLink from '../../Visit/CardLink';
 
 const Home = () => {
   return (
@@ -51,6 +53,10 @@ const Home = () => {
        <Advantages/>
 
        <FullyCustomize/>
+
+       <Testimonial/>
+
+       <CardLink/>
 
        <FAQ/>
 

@@ -15,18 +15,14 @@ const FAQ = () => {
                     <h2 className="text-customRed text-sm font-bold">F A Q</h2>
                     <h1 className="text-4xl font-bold my-4">Frequently Asked Questions </h1>
 
-                    {/* <div className="space-y-8">
-                        
-                         <FaqCard/>
-                         <FaqCard/>
-                    </div> */}
+                   
   <div class="grid grid-cols-2 gap-4">
-  <div class="col-span-1"> <FaqCard/></div>
+  <div class="col-span-1"> <FaqCard bgColor="bg-red-500" TextColor="text-white" /></div>
   <div class="col-span-1"></div>
-  <div class="col-span-1"> <FaqCard/></div>
-  <div class="col-span-1"> <FaqCard/></div>
-  <div class="col-span-1"> <FaqCard/></div>
-  <div class="col-span-1"> <FaqCard/></div>
+  <div class="col-span-1" > <FaqCard bgColor="" TextColor="text-black"/></div>
+  <div class="col-span-1"> <FaqCard bgColor="bg-red-500" TextColor="text-white"/></div>
+  <div class="col-span-1"> <FaqCard bgColor="bg-red-500" TextColor="text-white"/></div>
+  <div class="col-span-1"> <FaqCard  bgColor="" TextColor="text-black" /></div>
         
   </div>
 

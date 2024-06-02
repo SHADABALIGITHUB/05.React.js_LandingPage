@@ -23,7 +23,7 @@ const Heading = () => {
             <NavLink
               to='/'
               className="z-10 inline-flex justify-center items-center py-1 md:py-3 px-2 md:px-5 text-xs font-bold  text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
-            >
+              onClick={()=>alert("working on this part")}  >
               Get started
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
